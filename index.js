@@ -257,11 +257,11 @@ a(document).off("keyup.leanModal"+f),g.velocity({opacity:0},{duration:c.out_dura
 					$(this).attr('src', $(this).attr('data-src'));
 				})
 
-				$("div.subview-right.left td.fail").closest("li").find("span.test-status").attr( 'class','test-status right fail');
-				$("div.subview-right.left td.fail").closest("li").find("span.test-status").text( 'fail');
+// 				$("div.subview-right.left td.fail").closest("li").find("span.test-status").attr( 'class','test-status right fail');
+// 				$("div.subview-right.left td.fail").closest("li").find("span.test-status").text( 'fail');
 
-				$("div.subview-right.left td.error").closest("li").find("span.test-status").attr( 'class','test-status right fail');
-				$("div.subview-right.left td.error").closest("li").find("span.test-status").text( 'fail');
+// 				$("div.subview-right.left td.error").closest("li").find("span.test-status").attr( 'class','test-status right fail');
+// 				$("div.subview-right.left td.error").closest("li").find("span.test-status").text( 'fail');
 
 
 				var passElementLength = $(" div.subview-right.left  span.test-status.right.pass").length;
